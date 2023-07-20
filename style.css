@@ -1,0 +1,82 @@
+/*   fonts list   */
+
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    src: url('https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWeb.eot');
+    src: url('https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWeb.eot?#iefix') format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWeb.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWeb.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumBareunGothicLight';
+    src: url('https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothicL/NanumBarunGothicWebLight.eot');
+    src: url('https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothicL/NanumBarunGothicWebLight.eot?#iefix') format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothicL/NanumBarunGothicWebLight.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothicL/NanumBarunGothicWebLight.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumBarunGothicBold';
+    src: url('https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWebBold.eot');
+    src: url('https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWebBold.eot?#iefix') format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWebBold.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothic/NanumBarunGothicWebBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumBareunGothicUltraLight';
+    src: url('https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothicL/NanumBarunGothicWebUltraLight.eot');
+    src: url('https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothicL/NanumBarunGothicWebUltraLight.eot?#iefix') format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothicL/NanumBarunGothicWebUltraLight.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumBarunGothicL/NanumBarunGothicWebUltraLight.ttf) format("truetype");
+}
+
+
+/*   css   */
+
+* {
+    font-family: 'NanumBareunGothicLight', sans-serif;
+    margin: auto;
+    max-width: 860px;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'BMJUA';
+    color: #905555;
+}
+
+h1 {
+    text-align: center;
+    margin: 10%;
+    font-size: 48pt;
+}
+
+h2 {
+    margin: 5% 0;
+    font-size: 28pt;
+}
+
+h3 {
+    margin: 5%;
+    font-size: 20pt;
+}
+
+li {
+    margin: 10px auto;
+}
+
+b {
+    font-family: 'NanumBarunGothic';
+}
+
+hr {
+    border: #905555 1px dashed;
+    margin: 50px;
+}
+
+.list {
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+}
