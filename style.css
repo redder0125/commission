@@ -84,7 +84,8 @@ button {
     text-align: center;
     background-color: #F8D5DF;
     border: 0;
-    margin-radius: 5px;
+    margin-round: 5px;
+    padding: 10px;
 }
 
 .list {
