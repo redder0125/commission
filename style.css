@@ -81,10 +81,10 @@ hr {
 }
 
 button {
-    width: 50px;
     text-align: center;
     background-color: #F8D5DF;
     border: 0;
+    margin-radius: 5px;
 }
 
 .list {
