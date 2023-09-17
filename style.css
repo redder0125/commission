@@ -71,34 +71,36 @@ li {
     margin: 10px auto;
 }
 
+a {
+    text-decoration-line: none;
+}
+
 b {
     font-family: 'NanumBarunGothic';
 }
 
 hr {
     border: #905555 1px dashed;
-    margin: 50px;
+    margin: 7em 50px;
 }
 
 button {
     text-align: center;
     background-color: #F8D5DF;
     border: 0;
-    margin-round: 5px;
     padding: 10px;
-}
-
-.list {
-    display: inline;
-    margin: 10px;
-    text-decoration: none;
 }
 
 .imageList {
     display: inline;
+    margin: 10px;
 }
 
 .imageSample {
-    margin: 10px;
     width: 256px;
+}
+
+.commissionListLine {
+    border: 0;
+    margin: 3em;
 }
